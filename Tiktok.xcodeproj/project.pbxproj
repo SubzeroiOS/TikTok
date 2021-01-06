@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A11864B25A53BC60021A41B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A11864A25A53BC60021A41B /* GoogleService-Info.plist */; };
+		0A8526C825A57638006C5840 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8526C725A57638006C5840 /* Extensions.swift */; };
+		0A8526CB25A57C0B006C5840 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8526CA25A57C0B006C5840 /* PostModel.swift */; };
 		0AE57DFB25A4471A00D0BAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE57DFA25A4471A00D0BAD9 /* AppDelegate.swift */; };
 		0AE57DFD25A4471A00D0BAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE57DFC25A4471A00D0BAD9 /* SceneDelegate.swift */; };
 		0AE57DFF25A4471A00D0BAD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE57DFE25A4471A00D0BAD9 /* HomeViewController.swift */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		0A11864A25A53BC60021A41B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A8526C725A57638006C5840 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0A8526CA25A57C0B006C5840 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		0AE57DF725A4471A00D0BAD9 /* Tiktok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiktok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE57DFA25A4471A00D0BAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AE57DFC25A4471A00D0BAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 				0AE57E0325A4471C00D0BAD9 /* Assets.xcassets */,
 				0AE57DFA25A4471A00D0BAD9 /* AppDelegate.swift */,
 				0AE57DFC25A4471A00D0BAD9 /* SceneDelegate.swift */,
+				0A8526C725A57638006C5840 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 		0AE57E1625A44A0A00D0BAD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0A8526CA25A57C0B006C5840 /* PostModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE57E4925A44BDD00D0BAD9 /* HapticsManager.swift in Sources */,
+				0A8526C825A57638006C5840 /* Extensions.swift in Sources */,
 				0AE57E4325A44BBF00D0BAD9 /* DatabaseManager.swift in Sources */,
 				0AE57E1B25A44A7D00D0BAD9 /* ExploreViewController.swift in Sources */,
 				0AE57E2925A44AE800D0BAD9 /* UserListViewController.swift in Sources */,
@@ -350,6 +357,7 @@
 				0AE57E4625A44BD000D0BAD9 /* AuthenticationManager.swift in Sources */,
 				0AE57E2C25A44AF100D0BAD9 /* SignInViewController.swift in Sources */,
 				0AE57E3525A44B4400D0BAD9 /* TabBarViewController.swift in Sources */,
+				0A8526CB25A57C0B006C5840 /* PostModel.swift in Sources */,
 				0AE57E2625A44AD800D0BAD9 /* ProfileViewController.swift in Sources */,
 				0AE57E4025A44BAE00D0BAD9 /* StorageManager.swift in Sources */,
 				0AE57DFB25A4471A00D0BAD9 /* AppDelegate.swift in Sources */,
