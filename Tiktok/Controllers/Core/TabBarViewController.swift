@@ -40,6 +40,6 @@ class TabBarViewController: UITabBarController {
         nav4.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "person.circle"), tag: 5)
 
 
-        setViewControllers([nav1, nav2, camera, nav3, nav4], animated: false)
+        setViewControllers([nav1, nav2, camera, nav3, nav4], animated: false) 
     }
 }
